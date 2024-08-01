@@ -7,6 +7,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
 }
 
 code {
@@ -21,4 +22,28 @@ code {
   border-left: 3px solid black;
   border-right: 3px solid black;
   padding: 20px 30px 20px 30px;
+}
+.icon1 {
+  border-left: 3px solid black;
+  padding: 20px 30px;
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+}
+.icon1:hover,
+.icon2:hover {
+  background-color: #58f98f;
+}
+
+.icon1:hover .icon,
+.icon2:hover .icon {
+  fill: #000;
+  transition: fill 0.2s ease-in;
+}
+.icon2 {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 20px 30px 20px 30px;
+  transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+}
+.icon {
+  fill: #58f98f;
 }
