@@ -12,9 +12,9 @@ const Header: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 5000); // Ganti teks setiap 5 detik
+    }, 5000);
 
-    return () => clearInterval(interval); // Bersihkan interval saat komponen dibongkar
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
@@ -33,8 +33,6 @@ const Header: React.FC = () => {
       );
     }
   }, [textIndex]);
-
-  // Helper function to wrap each character in a span
   const wrapWithSpan = (textParts: string[]) => {
     return textParts.map((part, partIndex) => (
       <React.Fragment key={partIndex}>
