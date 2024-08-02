@@ -3,7 +3,7 @@ import Profile from "../images/Profile.png";
 
 const About: React.FC = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900 justify-center mx-auto">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
         <div className="profile grid grid-cols-2 items-center justify-center gap-8">
           <div className="flex justify-center">
