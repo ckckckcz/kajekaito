@@ -9,6 +9,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f4f4f4;
 }
+@font-face {
+  font-family: "FontBold";
+  src: url("../font/VastagoGrotesk-Bold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FontSemibold";
+  src: url("../font/VastagoGrotesk-SemiBold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -48,5 +60,13 @@ code {
   fill: #58f98f;
 }
 .header {
-  margin-top: 200px;
+  background-color: #58f98f;
+  height: 100%;
+  padding: 250px;
+}
+.text-bold {
+  font-family: "FontBold";
+}
+.text-semibold {
+  font-family: "FontSemibold";
 }
