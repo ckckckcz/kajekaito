@@ -79,3 +79,20 @@ code {
   width: auto;
   height: 350px;
 }
+
+.scroll-reveal span {
+  color: hsla(0, 2%, 58%, 0.555);
+  background-image: linear-gradient(90deg, black, black);
+  background-clip: text;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view();
+  animation-range: contain;
+}
+
+@keyframes scroll-reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}
