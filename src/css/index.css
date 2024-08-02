@@ -70,3 +70,12 @@ code {
 .text-semibold {
   font-family: "FontSemibold";
 }
+.profile {
+  width: 1000px;
+  height: 500px;
+}
+
+.profile-img {
+  width: auto;
+  height: 350px;
+}
